@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/957e80d7-5234-4306-a8c0-09c31ff14fea)#Vella
+#Vella
 This PowerShell script provides a comprehensive set of tools for Incident Response (IR) and Threat Hunting, allowing users to gather valuable forensic data and analyze suspicious activities on local or remote machines. It is designed for ease of use and integrates with external services like AbuseIPDB and VirusTotal for enhanced threat intelligence.
 
 Features
