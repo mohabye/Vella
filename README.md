@@ -1,4 +1,4 @@
-#Vella
+![image](https://github.com/user-attachments/assets/957e80d7-5234-4306-a8c0-09c31ff14fea)#Vella
 This PowerShell script provides a comprehensive set of tools for Incident Response (IR) and Threat Hunting, allowing users to gather valuable forensic data and analyze suspicious activities on local or remote machines. It is designed for ease of use and integrates with external services like AbuseIPDB and VirusTotal for enhanced threat intelligence.
 
 Features
@@ -28,39 +28,6 @@ Examines auto-run entries from startup folders and registry keys, including hash
 Temporary Files Investigation:
 
 Lists all temporary files and calculates their hashes for further analysis.
-Prerequisites
-Operating System: Windows
-PowerShell: Version 5.0 or higher
-Required Permissions: Administrator privileges are recommended for full functionality.
-External Dependencies
-AbuseIPDB API Key:
+![photo_5965441272288233395_w](https://github.com/user-attachments/assets/e62c7d85-6941-4d05-9622-f6f7ef995774)
 
-Used to check the reputation of IP addresses.
-Get your API key from AbuseIPDB.
-VirusTotal API Key:
 
-Used for analyzing file hashes.
-Obtain your API key from VirusTotal.
-How to Use
-Clone the repository:
-
-bash
-Copy code
-git clone https://github.com/your-username/ir-threat-hunting-toolkit.git
-cd ir-threat-hunting-toolkit
-Open the script in PowerShell ISE or any text editor to replace the placeholder API keys:
-
-Replace APIKey with your AbuseIPDB API key.
-Replace VTAPIKey with your VirusTotal API key.
-Run the script:
-
-powershell
-Copy code
-.\IR-ThreatHunt.ps1
-Follow the menu prompts to choose desired functionalities.
-
-Benefits
-Efficient Investigation: Quickly gather data on suspicious activities and processes.
-Automated Threat Intelligence: Integrates with popular threat intelligence services for real-time analysis.
-Comprehensive Analysis: Covers network, processes, services, files, and scheduled tasks in a single script.
-User-Friendly: Simple menu-driven interface for easy navigation
